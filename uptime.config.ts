@@ -31,13 +31,6 @@ const workerConfig = {
       method: 'GET',
       target: 'https://www.apple.com',
       timeout: 5000,
-    },
-    {
-      id: "github_api",
-      name: "GitHub API",
-      method: 'HEAD',
-      target: 'https://api.github.com',
-      timeout: 10000,
     }
   ],
   notification: {
